@@ -209,7 +209,7 @@ header .menu-nav-icon {
         line-height: 60px;
         display: none;
         cursor: pointer;
-        color: #fff;
+        color: #000000;
 }
 
 /* DROPDOWN MENU STYLING */
@@ -356,7 +356,13 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
 
         header .info .right-area { margin-left: 35px; }
 }
+/* HAMBURGER ICON */
 
+        .menu-nav-icon { position: absolute; top: 15px; right: 0; padding: 0 20px; }
+
+        header .right-area { padding-top: 15px; }
+
+        header .main-menu { top: 90px; }
 
 /* ---------------------------------
 2. SLIDER
